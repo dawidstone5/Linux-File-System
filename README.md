@@ -1,6 +1,7 @@
 # Linux-File-System
 **Diving into the Linux File System**
 *To best view the nodes in this project, consider cloning it into obsidian to see the connections.*
+*See [[overview]] for a map of all the directory nodes grouped by purpose.*
 ---
 The Linux File System is part of the Linux Operating System, responsible for organizing and managing data on storage devices.
 From the root [[root]] directory denoted by `/`  (the tip or apex of file tree in Linux), we discuss the files found in each of the directories there is and their role.
