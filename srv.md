@@ -1,3 +1,8 @@
+---
+aliases:
+  - /srv
+---
+
 # srv
 
 `/srv` is for data that this machine serves to the outside world. A web server's pages might live in `/srv/www`, an FTP area in `/srv/ftp`, a Git repository under `/srv/git`. The point of the directory is organisational: anyone landing on the box should be able to tell at a glance where its served content sits.

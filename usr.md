@@ -1,3 +1,8 @@
+---
+aliases:
+  - /usr
+---
+
 # usr
 
 `/usr` is the second major hierarchy in the tree, and despite the spelling it is not about users. The name stands for Unix System Resources. Think of it as the read-only bulk of the installed system: the programs, libraries, and data that come from packages rather than from you or the kernel.

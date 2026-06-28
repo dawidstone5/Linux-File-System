@@ -1,3 +1,8 @@
+---
+aliases:
+  - /opt
+---
+
 # opt
 
 `/opt` is for optional, self-contained software, usually third-party applications that ship outside the distribution's package system. The idea is that a vendor drops everything for one product into a single directory, such as `/opt/google/chrome`, where the binary, its libraries, and its data all sit together.

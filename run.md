@@ -1,3 +1,8 @@
+---
+aliases:
+  - /run
+---
+
 # run
 
 `/run` holds volatile runtime data that programs produce while the system is up: process IDs, lock files, sockets, and similar bookkeeping that describes the current boot. It is normally a `tmpfs` living in RAM, so it starts empty at every boot and never persists.

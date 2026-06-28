@@ -1,3 +1,8 @@
+---
+aliases:
+  - /etc
+---
+
 # etc
 
 `/etc` is the system's configuration drawer. It holds host-specific settings as plain text files, which is one of the quietly powerful ideas in Unix: you can read, diff, edit, and version-control your entire machine's behaviour with nothing more than a text editor.

@@ -39,14 +39,14 @@ The Linux file system is a critical part of how the operating system organizes a
      - **Character Devices (`c`)**: For devices that handle data as a stream of characters (e.g., keyboards).
    - **Pipes and Sockets (`p` and `s`)**: Used for inter-process communication.
 
-## 3. **Permissions**
+## 3. **[[permissions|Permissions]]**
    - **User (u), Group (g), and Others (o)**: Each file and directory has permissions associated with the owner (user), the group, and others.
    - **Permission Types**:
      - **Read (`r`)**: Ability to read the file or list directory contents.
      - **Write (`w`)**: Ability to modify the file or directory contents.
      - **Execute (`x`)**: Ability to execute the file or access the directory.
 
-## 4. **File System Types**
+## 4. **[[filesystem-types|File System Types]]**
    - **Ext4**: The most common default file system in Linux, known for robustness and performance.
    - **XFS**: High-performance file system suited for large files.
    - **Btrfs**: Modern file system with advanced features like snapshots and self-healing.
@@ -57,9 +57,9 @@ The Linux file system is a critical part of how the operating system organizes a
    - **Unmounting**: Detaching a file system from the directory tree, done with `umount /mnt`.
 
 ## 6. **Inodes**
-   - **Inodes**: Data structures that store metadata about files, such as ownership, permissions, and location of the actual data blocks. Each file has an inode, identified by an inode number.
+   - **[[inodes|Inodes]]**: Data structures that store metadata about files, such as ownership, permissions, and location of the actual data blocks. Each file has an inode, identified by an inode number.
 
-## 7. **Links**
+## 7. **[[links|Links]]**
    - **Hard Links**: Multiple directory entries for the same file, pointing to the same inode.
    - **Soft (Symbolic) Links**: Pointers to another file or directory.
 

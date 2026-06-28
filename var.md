@@ -1,3 +1,8 @@
+---
+aliases:
+  - /var
+---
+
 # var
 
 `/var` is for variable data: the files a running system writes to and grows over time, as opposed to the fixed program code in [[usr]]. If something on disk changes while the machine simply runs, it probably belongs here.

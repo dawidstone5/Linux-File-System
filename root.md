@@ -1,3 +1,9 @@
+---
+aliases:
+  - /
+  - /root
+---
+
 # root
 
 The word "root" means two different things in Linux, and they sit at opposite ends of the tree.

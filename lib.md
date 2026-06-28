@@ -1,3 +1,9 @@
+---
+aliases:
+  - /lib
+  - /lib64
+---
+
 # lib
 
 `/lib` holds the shared libraries that the essential binaries in [[bin]] and [[sbin]] depend on, plus the kernel modules under `/lib/modules`. A shared library is code many programs reuse instead of each carrying its own copy; the C library `libc.so` is the one almost every program links against.

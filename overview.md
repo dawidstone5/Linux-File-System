@@ -1,3 +1,9 @@
+---
+aliases:
+  - map
+  - index
+---
+
 # overview
 
 A map of the whole vault. Every directory note hangs off [[root|/]], the apex of the tree, and the groups below sort them by what they are actually for rather than by alphabet.
@@ -39,6 +45,15 @@ These do not sit on disk; the kernel generates them live.
 
 - [[boot]]: the kernel, initramfs, and bootloader files.
 - [[mnt and media]]: mount points where extra filesystems join the tree.
+
+## Cross-cutting concepts
+
+These notes are not directories. They explain the ideas that the directory nodes keep leaning on.
+
+- [[inodes]]: the structure that holds a file's metadata and block addresses.
+- [[links]]: hard and symbolic, the two ways one file gets many names.
+- [[permissions]]: the read, write, and execute bits for user, group, and others.
+- [[filesystem-types]]: ext4, XFS, Btrfs, and friends, plus `mkfs` and `fsck`.
 
 ## How to read the graph
 

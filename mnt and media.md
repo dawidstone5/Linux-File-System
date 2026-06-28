@@ -1,3 +1,9 @@
+---
+aliases:
+  - /mnt
+  - /media
+---
+
 # mnt and media
 
 These two directories are both mount points, the places where extra filesystems get grafted onto the single tree that starts at [[root|/]]. They differ in who does the grafting.

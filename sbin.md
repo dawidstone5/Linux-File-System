@@ -1,3 +1,8 @@
+---
+aliases:
+  - /sbin
+---
+
 # sbin
 
 `/sbin` is the administrator's toolbox. The "s" stands for system: these are the binaries used to set up, repair, and maintain the machine rather than to do everyday work. `fsck` to check a filesystem, `mkfs` to create one, `mount`, `reboot`, `ip`, and `fdisk` all live here.

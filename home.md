@@ -1,3 +1,8 @@
+---
+aliases:
+  - /home
+---
+
 # home
 
 `/home` holds the personal directories of ordinary users. Create a user called `dawid` and you get `/home/dawid`, owned by that user, where their files, downloads, and dotfiles live. The superuser is the exception; root keeps its home at [[root|/root]] instead.

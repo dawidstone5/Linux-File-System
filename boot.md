@@ -1,3 +1,8 @@
+---
+aliases:
+  - /boot
+---
+
 # boot
 
 `/boot` contains what the machine needs to start, before the main system is running. The two headline files are the kernel itself, usually named something like `vmlinuz-6.1.0`, and the `initramfs`, a small temporary root filesystem the kernel unpacks into memory so it can load the drivers required to reach the real disk.

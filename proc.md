@@ -1,3 +1,9 @@
+---
+aliases:
+  - /proc
+  - procfs
+---
+
 # proc
 
 `/proc` is a window into the running kernel, not a place on any disk. It is a virtual filesystem: the files you see are generated on demand by the kernel when you read them, so they cost nothing until touched and always show the current state.

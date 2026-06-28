@@ -1,3 +1,8 @@
+---
+aliases:
+  - /bin
+---
+
 # bin
 
 `/bin` holds essential command binaries, the everyday tools every user relies on: `ls`, `cp`, `mv`, `cat`, `bash`. "Essential" has a precise meaning under the Filesystem Hierarchy Standard. These are the commands that must work even when [[usr|/usr]] is not mounted, for example during a single-user rescue boot.

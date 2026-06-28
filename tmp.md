@@ -1,3 +1,8 @@
+---
+aliases:
+  - /tmp
+---
+
 # tmp
 
 `/tmp` is scratch space. Any program can write here, and any user can create files, which is what makes it useful for short-lived data like a download in progress or an editor's swap file.

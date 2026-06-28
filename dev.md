@@ -1,3 +1,8 @@
+---
+aliases:
+  - /dev
+---
+
 # dev
 
 `/dev` is where "everything is a file" becomes literal. The entries here are device files: handles that let programs talk to hardware through ordinary read and write calls. `/dev/sda` is the first disk, `/dev/sda1` its first partition, `/dev/null` the bottomless sink that discards anything written to it.
