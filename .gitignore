@@ -1,0 +1,18 @@
+# Obsidian local/workspace state (keep shared config, drop per-machine cruft)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+.trash/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor backups
+*~
+*.swp
+*.swo
+.idea/
+.vscode/

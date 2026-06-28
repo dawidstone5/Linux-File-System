@@ -79,3 +79,9 @@ The Linux file system is a critical part of how the operating system organizes a
    - **fsck**: File system check and repair tool.
    - **mkfs**: Create a file system on a partition or storage device.
    - **mount options**: Customize file system behavior (e.g., read-only, noexec).
+
+---
+
+## License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the material for any purpose, provided you give appropriate credit. See [LICENSE](LICENSE) for the full text.
