@@ -5,7 +5,7 @@
 The Linux File System is part of the Linux Operating System, responsible for organizing and managing data on storage devices.
 From the root [[root]] directory denoted by `/`  (the tip or apex of file tree in Linux), we discuss the files found in each of the directories there is and their role.
 
-The Linux file system is a critical part of . Here's a breakdown of its key features and structure:
+The Linux file system is a critical part of how the operating system organizes and reaches data. Here's a breakdown of its key features and structure:
 
 ## 1. **Hierarchy and Structure**
    - **Root Directory (`/`)**: The Linux file system is structured as a single tree hierarchy starting from the root directory, denoted by `/`.
@@ -21,7 +21,10 @@ The Linux file system is a critical part of . Here's a breakdown of its key feat
      - [[opt]] `/opt`: Optional software packages.
      - [[proc]] `/proc`: Virtual filesystem providing information about processes.
      - [[root]] `/root`: Home directory for the root user.
+     - [[run]] `/run`: Volatile runtime data for the current boot.
      - [[sbin]] `/sbin`: System binaries, mainly for root use.
+     - [[srv]] `/srv`: Data served by the system, such as web and FTP files.
+     - [[sys]] `/sys`: Kernel view of devices, drivers, and buses.
      - [[tmp]] `/tmp`: Temporary files.
      - [[usr]] `/usr`: Secondary hierarchy with user applications.
      - [[var]] `/var`: Variable data like logs, databases.
@@ -69,7 +72,7 @@ The Linux file system is a critical part of . Here's a breakdown of its key feat
 
 ## 9. **Special File Systems**
    - **Procfs (`/proc`)**: A pseudo-file system that provides a view into the kernel's view of processes and system information.
-   - **Sysfs (`/sys`)**: Exposes kernel devices and their attributes.
+   - **Sysfs ([[sys]] `/sys`)**: Exposes kernel devices and their attributes.
 
 ## 10. **File System Maintenance**
    - **fsck**: File system check and repair tool.
